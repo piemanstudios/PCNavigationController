@@ -1,0 +1,1 @@
+This is a replacement to Apple's UINavigationController on the iPad. It uses a navigation bar with a sliding title bar along the top, making better use of the space at the top of the screen.
