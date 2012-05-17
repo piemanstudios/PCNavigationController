@@ -1,13 +1,9 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf320
-{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww38200\viewh19020\viewkind0
-\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+This is an alternative to Apple's UINavigationController for the iPad.
 
-\f0\fs24 \cf0 This is an alternative to Apple's UINavigationController for the iPad. \
-\
-It is simple to use; drop the 8 files into your project and initialise a PCNavigationController object along with a root view controller as you would with a UINavigationController.\
-\
-Then simply treat it as a UINavigationController; you call [self.navigationController pushViewController:] etc to push/pop view controllers. \
-\
-To set the navigation title, again use [self.navigationItem setTitle:@"Title"].}
+It is simple to use; drop the 8 files into your project and initialise a PCNavigationController object along with a root view controller as you would with a UINavigationController.
+
+Then simply treat it as a UINavigationController; you call [self.navigationController pushViewController:] etc to push/pop view controllers.
+
+To set the navigation title, again use [self.navigationItem setTitle:@"Title"]
+
+An example is included in the project to get you going- feel free to replace the artwork (the navigationItems may need to be resized if you do this).
